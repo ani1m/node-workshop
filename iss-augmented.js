@@ -50,7 +50,7 @@ prompt.get(['location'], function(err, result){
             
             var d = R * c;
              }
-             console.log("Your distance from ISS is " + d.toFixed(0) + " metres ");
+             console.log("Your distance from ISS is " + (d / 1000).toFixed(0)  + "kms");
         })
             }
         })
